@@ -21,6 +21,3 @@ mv $REPO_NAME.db.tar.gz $REPO_NAME.db &> /dev/null
 mv $REPO_NAME.files.tar.gz $REPO_NAME.files &> /dev/null
 mv $REPO_NAME.db.tar.gz.sig $REPO_NAME.db.sig &> /dev/null
 mv $REPO_NAME.files.tar.gz.sig $REPO_NAME.files.sig &> /dev/null
-
-echo "[UPDATE] Pushing changes..."
-git add .; git commit -m "Update packages"; git push -u origin main
