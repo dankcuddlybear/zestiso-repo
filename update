@@ -21,3 +21,7 @@ mv $REPO_NAME.db.tar.gz $REPO_NAME.db &> /dev/null
 mv $REPO_NAME.files.tar.gz $REPO_NAME.files &> /dev/null
 mv $REPO_NAME.db.tar.gz.sig $REPO_NAME.db.sig &> /dev/null
 mv $REPO_NAME.files.tar.gz.sig $REPO_NAME.files.sig &> /dev/null
+
+git add .
+git commit -m "General stability and performance improvements to optimise user experience"
+git push -u origin main
