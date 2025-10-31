@@ -1,6 +1,7 @@
 #!/bin/sh
 REPO_DIR="$(cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)"
 REPO_NAME="zestiso"
+cd "$REPO_DIR"
 echo "[UPDATE] Creating $REPO_NAME DB"
 
 # Delete old files
